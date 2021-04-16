@@ -1,0 +1,143 @@
+
+
+/* Genel özellikler */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size:16px;
+}
+
+/* google font */
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.col-25{
+    width: 25%;
+    height: auto;
+    float:left;
+}
+
+.col-50{
+    width: 50%;
+    height: auto;
+    float:left;
+}
+
+.col-75{
+    width: 75%;
+    height: auto;
+    float:left;
+}
+
+.col-100{
+    width: 100%;
+    height: auto;
+    float:left;
+}
+
+.images-responsive{
+    max-width: 100%!important;
+    height: auto;
+    object-fit: cover;
+}
+
+
+footer{
+    background-color: black!important;
+    color:white;
+    height: 25rem;
+    width: auto;
+}
+
+
+/* logo */
+#logo{
+    width: 25%;
+    height: 25%;
+}
+
+/* register */
+#register {
+    color:#0275d8;
+}
+
+
+/* header */
+header .jumbotron{
+    background-image: url(../images/buildings-690364_1920.jpg);
+    background-size:cover;
+    background-position: 50% 50%;
+    height: 45rem;
+    padding-top:13rem;
+    opacity:0.9;
+    z-index:-1;
+
+}
+.underscore{
+    color:white;
+    text-decoration: underline;
+    
+}
+
+header .masthead-subheading {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    margin-top:5rem;
+    font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  header .masthead-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  
+  header .jumbotron .container div{
+      color:white;
+      background: brown;
+      opacity:.5;
+  }
+
+  #button-header{
+    box-shadow: 1px 1px 15px 1px black;
+  }
+
+  #button-header:hover{
+      box-shadow: 1px 1px 5px 1px black;
+  }
+
+/* navbar */
+#menu-all ul li {
+    text-transform: uppercase;
+}
+
+/* card */
+#time{
+    float:right;
+}
+
+.card-body{
+box-shadow:1px 1px 5px 1px rgba(0,0,0,.8);
+}
+
+#parag::first-letter{
+    font-size:2rem;
+    padding-right:.2rem;
+}
+
